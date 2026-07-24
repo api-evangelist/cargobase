@@ -1,0 +1,6 @@
+Contact: mailto:sec-disclosure@cargobase.com
+Expires: 2023-02-28T04:30:00.000Z
+Preferred-Languages: en, fr, de, nl, cn 
+Canonical: https://www.cargobase.com/.well-known/security.txt
+Policy: https://www.cargobase.com/responsible-disclosure
+Hiring: https://careers.cargobase.com

@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of https://www.cargobase.com/.well-known/*
+host: https://www.cargobase.com
+documents:
+- path: /.well-known/security.txt          # RFC 9116
+  status: 200
+  file: cargobase-security.txt
+  note: real security.txt document (Contact + Policy + Hiring); Expires field is past-dated (2023-02-28)
+- path: /.well-known/openid-configuration   # OIDC discovery
+  status: 200
+  document: false
+  note: soft-200 — returns the Next.js SPA shell, not a real OIDC discovery document
+- path: /.well-known/oauth-authorization-server  # RFC 8414
+  status: 200
+  document: false
+  note: soft-200 — returns the Next.js SPA shell, not a real authorization-server document
+- path: /.well-known/api-catalog            # RFC 9727
+  status: 200
+  document: false
+  note: soft-200 — returns the Next.js SPA shell, not a real api-catalog document
+- path: /.well-known/ai-plugin.json
+  status: 200
+  document: false
+  note: soft-200 — returns the Next.js SPA shell, not a real ai-plugin manifest

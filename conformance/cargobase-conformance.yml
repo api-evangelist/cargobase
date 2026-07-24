@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.cargobase.com/blog
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: 'Cargobase publicly announced ISO/IEC 27001 certification'
+  source: https://www.cargobase.com/blog/cargobase-achieves-iso-27001-certification
+- id: soc-2
+  conforms: true
+  evidence: 'Cargobase publicly announced SOC 2 compliance for its spot-freight automation and TMS platform'
+  source: https://www.cargobase.com/blog/cargobase-secures-soc-2-compliance-for-leading-spot-freight-automation-and-transportation-management-system-(tms)
+- id: gdpr
+  conforms: true
+  evidence: 'Cargobase publishes a Data Processing Agreement (DPA) and a Privacy Policy'
+  source: https://www.cargobase.com/dpa
+notes: >-
+  Cargobase is a SaaS TMS product without a public developer API; conformance
+  here reflects the company's published information-security and data-protection
+  posture (ISO 27001, SOC 2, GDPR/DPA) rather than API protocol standards.
